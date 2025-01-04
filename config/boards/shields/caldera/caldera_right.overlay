@@ -9,6 +9,7 @@
         = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row A from the schematic file
         , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row B from the schematic file
         , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row C from the schematic file
+        ;
     col-gpios
         = <&gpio1 4 GPIO_ACTIVE_HIGH>
         , <&pro_micro 7 GPIO_ACTIVE_HIGH>
