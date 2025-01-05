@@ -41,20 +41,19 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -113,7 +112,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -123,9 +122,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -221,7 +220,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "left.kicad_pro",
+    "filename": "left_finished.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -238,9 +237,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -249,224 +248,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P020"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "first_mod"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "first_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "first_home"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "first_top"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "first_num"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P022"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "second_mod"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "second_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "second_home"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "second_top"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "second_num"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P024"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "third_mod"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "third_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "third_home"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "third_top"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "third_num"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P100"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fourth_mod"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fourth_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fourth_home"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fourth_top"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fourth_num"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P011"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fifth_mod"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fifth_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fifth_home"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fifth_top"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "fifth_num"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P017"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "sixth_mod"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "sixth_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "sixth_home"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "sixth_top"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "sixth_num"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P113"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P002"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P029"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P115"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P031"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RAW"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RST"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P111"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P010"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P009"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P006"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P008"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P104"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P106"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "pos"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
